@@ -145,6 +145,23 @@ body, html {
 	.jp_top_header_right__social_cont li:first-child {
 	margin-left : 0;
 	}
+	.dropdown.my-account-nav-dropdown  {
+		margin-top: 10px !important;
+	}
+	body > div.jp_top_header_main_wrapper > div > div > div:nth-child(2) > div > div.jp_top_header_right_cont > ul > li.my-account-nav > div > ul > li:nth-child(2),
+	body > div.jp_top_header_main_wrapper > div > div > div:nth-child(2) > div > div.jp_top_header_right_cont > ul > li.my-account-nav > div > ul > li:nth-child(3) {
+		margin-left: 0 !important;
+	}
+	body > div.jp_top_header_main_wrapper > div > div > div:nth-child(2) > div > div.jp_top_header_right_cont > ul > li.my-account-nav > div > ul > li a {
+		color: #000 !important;
+		display: block !important;
+	}
+	.mobail_menu .dropdown.my-account-nav-dropdown ul {
+		margin-top: 50px !important;
+		height: auto !important;
+		padding-top: 5px !important;
+	}
+
 	.gc_header_wrapper {
 	float : left;
 	width : 100%;

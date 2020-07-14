@@ -157,6 +157,18 @@
                                                         <li> <a href="/contact">Contact</a> </li>
                                                         <li> <a href="/register">Sign Up</a> </li>
                                                         <li> <a href="/login">Login</a> </li>
+                                                        <li class="my-account-nav">
+                                                        <div class="dropdown my-account-nav-dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                USERNAME
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
+                                                                <li><a class="dropdown-item" href="/settings">Settings</a> </li>
+                                                                <li><a class="dropdown-item" href="/logout">Logout</a> </li>
+                                                            </ul>
+                                                        </div>
+                                                        </li>
 
                                                     </ul>
                                                     <!-- .cd-dropdown-content -->

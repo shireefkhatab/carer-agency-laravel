@@ -17,12 +17,18 @@
                             <ul>
                                 <li><a href="/register"><i class="fa fa-user"></i>&nbsp; SIGN UP</a></li>
                                 <li><a href="/login"><i class="fa fa-sign-in"></i>&nbsp; LOGIN</a></li>
-                            </ul>
-                        </div>
-                        <div class="jp_top_header_right_cont">
-                            <ul id="user_profile_link">
-                                <li><a href="my_account.html"><i class="fa fa-user"></i>&nbsp; </a></li>
-                                <li><a href="my_account.html"><p id="username_p"> USERNAME </a></li>
+                                <li class="my-account-nav">
+                                <div class="dropdown my-account-nav-dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        USERNAME
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
+                                        <li><a class="dropdown-item" href="/settings">Settings</a> </li>
+                                        <li><a class="dropdown-item" href="/logout">Logout</a> </li>
+                                    </ul>
+                                </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="jp_top_header_right__social_cont">
