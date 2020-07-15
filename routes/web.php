@@ -136,3 +136,14 @@ Route::get('/admin-register', function () {
 Route::get('/admin-password', function () {
     return view('ca-admin.admin-password');
 });
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::get('/logout', function () {
+    Auth::logout();
+    return redirect()->back();
+});
+

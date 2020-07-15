@@ -15,12 +15,11 @@
                     <div class="jp_top_header_right_wrapper">
                         <div class="jp_top_header_right_cont">
                             <ul>
-                                <li><a href="/register"><i class="fa fa-user"></i>&nbsp; SIGN UP</a></li>
-                                <li><a href="/login"><i class="fa fa-sign-in"></i>&nbsp; LOGIN</a></li>
+                                @if(Auth::check())
                                 <li class="my-account-nav">
                                 <div class="dropdown my-account-nav-dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        USERNAME
+                                        {{Auth::user()->name}}
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
@@ -29,6 +28,10 @@
                                     </ul>
                                 </div>
                                 </li>
+                                @else
+                                <li><a href="/register"><i class="fa fa-user"></i>&nbsp; SIGN UP</a></li>
+                                <li><a href="/login"><i class="fa fa-sign-in"></i>&nbsp; LOGIN</a></li>
+                                @endif
                             </ul>
                         </div>
                         <div class="jp_top_header_right__social_cont">
