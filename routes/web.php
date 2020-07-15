@@ -132,6 +132,25 @@ Route::get('/admin-password', function () {
     return view('ca-admin.admin-password');
 });
 
+// ADMIN
+Route::get('/ca-admin', function () {
+    return view('ca-admin.index');
+});
+Route::get('/admin-jobs', function () {
+    return view('ca-admin.admin-jobs');
+});
+Route::get('/admin-candidates', function () {
+    return view('ca-admin.admin-candidates');
+});
+Route::get('/admin-login', function () {
+    return view('ca-admin.admin-login');
+});
+Route::get('/admin-register', function () {
+    return view('ca-admin.admin-register');
+});
+Route::get('/admin-password', function () {
+    return view('ca-admin.admin-password');
+});
 
 Auth::routes();
 
