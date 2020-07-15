@@ -155,20 +155,8 @@
                                                         </li>
                                                         <li> <a href="/blog">Blog</a> </li>
                                                         <li> <a href="/contact">Contact</a> </li>
-                                                        <li> <a href="/register">Sign Up</a> </li>
-                                                        <li> <a href="/login">Login</a> </li>
-                                                        <li class="my-account-nav">
-                                                        <div class="dropdown my-account-nav-dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                USERNAME
-                                                            </button>
-                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                                <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
-                                                                <li><a class="dropdown-item" href="/settings">Settings</a> </li>
-                                                                <li><a class="dropdown-item" href="/logout">Logout</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                        </li>
+<!--                                                         <li> <a href="/register">Sign Up</a> </li>
+                                                        <li> <a href="/login">Login</a> </li> -->
 
                                                     </ul>
                                                     <!-- .cd-dropdown-content -->
@@ -186,8 +174,20 @@
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
                         <div class="jp_navi_right_btn_wrapper">
                             <ul>
-                                <li><a href="/post-a-job"><i class="fa fa-plus-circle"></i>&nbsp; Post a job</a></li>
-                                <li><a href="/apply-for-a-job"><i class="fa fa-plus-circle"></i>&nbsp; Upload CV</a></li>
+                                <li><a 
+                                    @if(Auth::check())    
+                                        href="/post-a-job"
+                                    @else
+                                        href="/login"
+                                    @endif
+                                    ><i class="fa fa-plus-circle"></i>&nbsp; Post a job</a></li>
+                                <li><a 
+                                    @if(Auth::check())    
+                                        href="/apply-for-a-job"
+                                    @else
+                                        href="/login"
+                                    @endif
+                                    ><i class="fa fa-plus-circle"></i>&nbsp; Upload CV</a></li>
                             </ul>
                         </div>
                     </div>

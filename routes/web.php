@@ -14,32 +14,35 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // return Auth()->id();
+    // Auth::logout();
     return view('index');
 });
+
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 Route::get('/why-us', function () {
     return view('why-us');
-});
+})->name('why-us');
 Route::get('/services', function () {
     return view('services');
-});
+})->name('services');
 Route::get('/jobs', function () {
     return view('jobs');
-});
+})->name('jobs');
 Route::get('/blog', function () {
     return view('blog');
-});
+})->name('blog');
 Route::get('/contact', function () {
     return view('contact-us');
-});
+})->name('contact');
 
 //
 
 Route::get('/apply-for-a-job', function () {
     return view('apply-for-a-job');
-});
+})->name('apply-for-a-job');
 Route::get('/candidate-profile', function () {
     return view('candidate-profile');
 });
@@ -67,18 +70,19 @@ Route::get('/listing-left', function () {
 Route::get('/listing-single', function () {
     return view('listing-single');
 });
-Route::get('/login', function () {
-    return view('login');
-});
-Route::get('/register', function () {
-    return view('register');
-});
+// Route::get('/login', function () {
+//     return view('login');
+// });
+// Route::get('/register', function () {
+//     return view('register');
+// });
 Route::get('/message', function () {
     return view('message');
 });
-Route::get('/post-a-job', function () {
-    return view('post-a-job');
-});
+Route::get('/post-a-job', 'JobController@create')->name('post-a-job');
+
+Route::post('/post-a-job','JobController@store')->name('post-a-job');
+
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 });
@@ -117,22 +121,19 @@ Route::get('services/staffing-services', function () {
 Route::get('services/temporary-and-short-term-care-workers', function () {
     return view('services.temporary-and-short-term-care-workers');
 });
-// ADMIN
-Route::get('/ca-admin', function () {
-    return view('ca-admin.index');
+
+Route::get('facebook', function () {
+    return view('facebook');
 });
-Route::get('/admin-jobs', function () {
-    return view('ca-admin.admin-jobs');
-});
-Route::get('/admin-candidates', function () {
-    return view('ca-admin.admin-candidates');
-});
-Route::get('/admin-login', function () {
-    return view('ca-admin.admin-login');
-});
-Route::get('/admin-register', function () {
-    return view('ca-admin.admin-register');
-});
-Route::get('/admin-password', function () {
-    return view('ca-admin.admin-password');
+Route::get('auth/facebook', 'Auth\FacebookController@redirectToFacebook');
+Route::get('auth/facebook/callback', 'Auth\FacebookController@handleFacebookCallback');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/logout', function () {
+    Auth::logout();
+    return redirect()->back();
 });

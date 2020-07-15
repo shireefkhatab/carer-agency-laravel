@@ -1,0 +1,10 @@
+diff a/resources/views/jobs.blade.php b/resources/views/jobs.blade.php	(rejected hunks)
+@@ -159,7 +159,7 @@
+                                                         <div class="row">
+                                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                                                 <div class="jp_job_post_side_img">
+-                                                                    <img src='{{ asset("images/content/job_post_img1.jpg"
++                                                                    <img src='{{ asset("images/content/job_post_img1.jpg")}}')}}'
+                                                                         alt="post_img" />
+                                                                 </div>
+                                                                 <div class="jp_job_post_right_cont">
