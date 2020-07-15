@@ -128,6 +128,10 @@ Route::get('facebook', function () {
 Route::get('auth/facebook', 'Auth\FacebookController@redirectToFacebook');
 Route::get('auth/facebook/callback', 'Auth\FacebookController@handleFacebookCallback');
 
+Route::get('/admin-password', function () {
+    return view('ca-admin.admin-password');
+});
+
 
 Auth::routes();
 
@@ -137,3 +141,4 @@ Route::get('/logout', function () {
     Auth::logout();
     return redirect()->back();
 });
+
