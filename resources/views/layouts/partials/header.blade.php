@@ -65,10 +65,8 @@
 
                                         </ul>
                                     </li>
-                                    <li class="parent gc_main_navigation"><a href="/blog"
-                                            class="gc_main_navigation"> Blog </a> </li>
-                                    <li class="parent gc_main_navigation"><a href="/contact"
-                                            class="gc_main_navigation">Contact</a></li>
+                                    <!-- <li class="parent gc_main_navigation"><a href="/blog" class="gc_main_navigation"> Blog </a> </li> -->
+                                    <li class="parent gc_main_navigation"><a href="/contact" class="gc_main_navigation">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- mainmenu end -->
@@ -153,7 +151,7 @@
                                                                         Domiciliary Care Workers </a></li>
                                                             </ul>
                                                         </li>
-                                                        <li> <a href="/blog">Blog</a> </li>
+                                                        <!-- <li> <a href="/blog">Blog</a> </li> -->
                                                         <li> <a href="/contact">Contact</a> </li>
                                                         @if(Auth::check())
                                                         <li class="my-account-nav">
