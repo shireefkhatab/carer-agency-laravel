@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include('ca-admin.partials.head')
+        @include('admin.partials.head')
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-        @include('ca-admin.partials.nav')
+        @include('admin.partials.nav')
         </nav>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
@@ -13,7 +13,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href='{{ url("/ca-admin") }}'>
+                            <a class="nav-link" href='{{ url("secure/user/admin/dashboard") }}'>
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -39,11 +39,11 @@
                                 </nav>
                             </div>
                             
-                            <a class="nav-link" href='{{ url("admin-jobs") }}'>
+                            <a class="nav-link" href='{{ url("secure/user/admin/jobs") }}'>
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Jobs
                             </a>
-                            <a class="nav-link" href='{{ url("admin-candidates") }}'>
+                            <a class="nav-link" href='{{ url("secure/user/admin/candidates") }}'>
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Candidates
                             </a>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        USERNAME
+                        ADMIN
                     </div>
                 </nav>
             </div>
@@ -68,10 +68,10 @@
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
-                @include('ca-admin.partials.footer')
+                @include('admin.partials.footer')
                 </footer>
             </div>
         </div>
-        @include('ca-admin.partials.scripts')
+        @include('admin.partials.scripts')
     </body>
 </html>

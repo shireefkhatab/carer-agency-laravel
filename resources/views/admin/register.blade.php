@@ -1,4 +1,4 @@
-@extends('ca-admin.partials.admin')
+@extends('admin.partials.admin')
 
 @section('content')
         <div id="layoutAuthentication">

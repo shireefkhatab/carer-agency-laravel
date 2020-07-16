@@ -1,4 +1,4 @@
-@extends('ca-admin.partials.admin')
+@extends('admin.partials.admin')
 @section('content')
 <div class="card mb-4">
                             <div class="card-body">
