@@ -132,28 +132,25 @@ Route::get('/admin-password', function () {
     return view('ca-admin.admin-password');
 });
 
-// ADMIN
-Route::get('/ca-admin', function () {
-    return view('ca-admin.index');
+
+Route::group(['prefix' => 'secure/user/admin','middleware' => 'admin', 'as' => 'admin.'],function(){
+    Route::get('/', function () {
+        return view('admin.login');
+    });
+    Route::get('/dashboard', function () {
+        return view('admin.index');
+    });
+    Route::get('/jobs', function () {
+        return view('admin.jobs');
+    });
+    Route::get('/candidates', function () {
+        return view('admin.candidates');
+    });
+
 });
-Route::get('/admin-jobs', function () {
-    return view('ca-admin.admin-jobs');
-});
-Route::get('/admin-candidates', function () {
-    return view('ca-admin.admin-candidates');
-});
-Route::get('/admin-login', function () {
-    return view('ca-admin.admin-login');
-});
-Route::get('/admin-register', function () {
-    return view('ca-admin.admin-register');
-});
-Route::get('/admin-password', function () {
-    return view('ca-admin.admin-password');
-});
+
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/logout', function () {
