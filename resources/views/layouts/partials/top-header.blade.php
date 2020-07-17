@@ -24,6 +24,8 @@
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
                                         <li><a class="dropdown-item" href="/settings">Settings</a> </li>
+                                        <li><a class="dropdown-item" href="/my-account">My Account</a> </li>
+                                        <li><a class="dropdown-item" href="/dashboard">Dashboard</a> </li>
                                         <li><a class="dropdown-item" href="/logout">Logout</a> </li>
                                     </ul>
                                 </div>

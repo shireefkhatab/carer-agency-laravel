@@ -163,3 +163,10 @@ Route::get('/logout', function () {
     return redirect()->back();
 });
 
+
+Route::get('/company-dashboard', function(){
+    return view('admin.company-dashboard');
+});
+Route::get('/candidate-dashboard', function(){
+    return view('admin.candidate-dashboard');
+});
