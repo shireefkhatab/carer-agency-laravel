@@ -31,9 +31,11 @@ Route::get('/services', function () {
 Route::get('/jobs', function () {
     return view('jobs');
 })->name('jobs');
-Route::get('/jobs_loop', function () {
-    return view('jobs_loop');
-})->name('jobs');
+
+// Test
+Route::get('/jobs-loop', 'JobsLoopController@index');
+// End Test
+
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
