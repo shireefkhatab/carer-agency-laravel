@@ -36,14 +36,6 @@
                     <div class="col-md-10 col-md-offset-1">
                         <div role="tabpanel">
 
-                            <!-- Nav tabs -->
-                            <ul id="tabOne" class="nav register-tabs">
-                                <li class="active"><a href="#contentOne-1" data-toggle="tab">personal account <br> <span>i am looking for a job</span></a>
-                                </li>
-                                <li><a href="#contentOne-2" data-toggle="tab">company account <br> <span>We are hiring Employees</span></a>
-                                </li>
-                            </ul>
-
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane fade in active register_left_form" id="contentOne-1">
@@ -71,104 +63,64 @@
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <input type="password" name="field-name" value="" placeholder="re-enter password*">
                                         </div>
+
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="current location">
-
+                                            <select name="account-type" required>
+                                                <option value="0">Account Type</option>
+                                                <option value="candidate">Candidate</option>
+                                                <option value="company">Company</option>
+                                            </select>
                                         </div>
+
+                    <!-- ######################### If Candidate ########################## -->
+
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12 custom_input">
                                             <input type="file" name="resume">
                                             <p>DOC, DOCX, RTF, PDF - 300KB MAX PREFERRED CV FORMAT - DOCX FILE</p>
                                         </div>
+                    <!-- /////////////////////////  End If Candidate //////////////////////////// -->
+
+                    <!-- ######################### If Company ############################## -->
+                                        
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="phone">
+                                            <input type="text" name="field-name" value="" placeholder="company name">
                                         </div>
 
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="field-name" value="" placeholder="website">
+                                        </div>
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="field-name" value="" placeholder="address line">
+                                        </div>
+                    <!-- ////////////////////// End If Company //////////////////////////// -->
+                                    </div>
+                                    <div id="row">
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="check-box text-center">
                                                 <input type="checkbox" name="shipping-option" id="account-option_1"> &ensp;
                                                 <label for="account-option_1">I agreed to the <a href="terms-and-conditions." class="check_box_anchr">Terms and Conditions</a> governing the use of jobportal</label>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="login_btn_wrapper register_btn_wrapper login_wrapper ">
-                                        <a href="/" class="btn btn-primary login_btn"> register </a>
-                                    </div>
-                                    <div class="login_message">
-                                        <p>Already a member? <a href="login."> Login Here </a> </p>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade register_left_form" id="contentOne-2">
-
-                                    <div class="jp_regiter_top_heading">
-                                        <p>Fields with * are mandetory </p>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="field-name" value="" placeholder="Username*">
-                                        </div>
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <input type="text" name="field-name" value="" placeholder="Email*">
-                                        </div>
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="password" name="field-name" value="" placeholder="password*">
-                                        </div>
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="password" name="field-name" value="" placeholder="re-enter password*">
-                                        </div>
-
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="phone">
-                                        </div>
-
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="company name">
-
-                                        </div>
-
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="website">
-
-                                        </div>
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-
-                                            <input type="text" name="field-name" value="" placeholder="address line">
-                                        </div>
-
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="check-box text-center">
-                                                <input type="checkbox" name="shipping-option" id="account-option_2"> &ensp;
-                                                <label for="account-option_2">I agreed to the <a href="terms-and-conditions." class="check_box_anchr">Terms and Conditions</a> governing the use of jobportal</label>
+                                        
+                                        <!-- <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12"> -->
+                                            <div class="login_btn_wrapper register_btn_wrapper login_wrapper ">
+                                                <a href="/" class="btn btn-primary login_btn"> register </a>
                                             </div>
-                                        </div>
-                                    </div>
+                                            <div class="login_message">
+                                                <p>Already a member? <a href="login."> Login Here </a> </p>
+                                            </div>
+                                        <!-- </div> -->
+                                    
 
-                                    <div class="login_btn_wrapper register_btn_wrapper login_wrapper ">
-                                        <a href="/" class="btn btn-primary login_btn"> register </a>
-                                    </div>
-                                    <div class="login_message">
-                                        <p>Already a member? <a href="login."> Login Here </a> </p>
-                                    </div>
-
+                                    
                                 </div>
 
                             </div>
