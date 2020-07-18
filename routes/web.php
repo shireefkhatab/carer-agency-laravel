@@ -170,3 +170,8 @@ Route::get('/company-dashboard', function(){
 Route::get('/candidate-dashboard', function(){
     return view('admin.candidate-dashboard');
 });
+
+Route::get('/dentists', function(){
+    return view('dentists');
+});
+
