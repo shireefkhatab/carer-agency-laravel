@@ -128,33 +128,47 @@ Route::get('services/temporary-and-short-term-care-workers', function () {
 Route::get('facebook', function () {
     return view('facebook');
 });
-Route::get('auth/facebook', 'Auth\FacebookController@redirectToFacebook');
-Route::get('auth/facebook/callback', 'Auth\FacebookController@handleFacebookCallback');
+// Route::get('auth/facebook', 'Auth\FacebookController@redirectToFacebook');
+// Route::get('auth/facebook/callback', 'Auth\FacebookController@handleFacebookCallback');
 
 Route::get('/admin-password', function () {
-    return view('ca-admin.admin-password');
+    return view('admin.admin-password');
 });
 
 
-Route::group(['prefix' => 'secure/user/admin','middleware' => 'admin', 'as' => 'admin.'],function(){
+Auth::routes();
+
+
+// Route::get('secure/user/admin/dashboard', function () {
+//         return view('admin.index');})->name('dashboard')->middleware('is_admin');
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('secure/user/admin', function () {
+        return view('admin.login');
+    })->name('admin.login');
+
+Route::group(['prefix' => 'secure/user/admin','middleware' => 'is_admin', 'as' => 'admin.'],function(){
     Route::get('/', function () {
         return view('admin.login');
     });
     Route::get('/dashboard', function () {
         return view('admin.index');
-    });
+    })->name('dashboard');
     Route::get('/jobs', function () {
         return view('admin.jobs');
-    });
+    })->name('jobs');
     Route::get('/candidates', function () {
         return view('admin.candidates');
+    })->name('candidates');
+    Route::get('/logout', function () {
+        Auth::logout();
+        return view('admin.login');
     });
 
 });
 
 
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/logout', function () {
     Auth::logout();
