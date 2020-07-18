@@ -31,9 +31,11 @@ Route::get('/services', function () {
 Route::get('/jobs', function () {
     return view('jobs');
 })->name('jobs');
-Route::get('/jobs_loop', function () {
-    return view('jobs_loop');
-})->name('jobs');
+
+// Test
+Route::get('/jobs-loop', 'JobsLoopController@index');
+// End Test
+
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
@@ -173,5 +175,17 @@ Route::group(['prefix' => 'secure/user/admin','middleware' => 'is_admin', 'as' =
 Route::get('/logout', function () {
     Auth::logout();
     return redirect()->back();
+});
+
+
+Route::get('/company-dashboard', function(){
+    return view('admin.company-dashboard');
+});
+Route::get('/candidate-dashboard', function(){
+    return view('admin.candidate-dashboard');
+});
+
+Route::get('/dentists', function(){
+    return view('dentists');
 });
 

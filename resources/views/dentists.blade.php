@@ -10,13 +10,13 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="jp_tittle_heading_wrapper">
                         <div class="jp_tittle_heading">
-                            <h2>About Us</h2>
+                            <h2>Dentist</h2>
                         </div>
                         <div class="jp_tittle_breadcrumb_main_wrapper">
                             <div class="jp_tittle_breadcrumb_wrapper">
                                 <ul>
                                     <li><a href="/">Home</a> <i class="fa fa-angle-right"></i></li>
-                                    <li>About-Us</li>
+                                    <li>Dentist</li>
                                 </ul>
                             </div>
                         </div>
@@ -32,12 +32,30 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="aboutus_text_section abt_txt_page_2">
-                            <h2>About <span>Us</span></h2>
-                            <p>At Care Agency UK, we offer a complete recruitment solution to our clients. 
-                                Firstly, we will discuss your requirements with you and then undertake the best solution to find the social care workers you need. 
-                                We may already have suitable candidates on our books or we may advertise your role for you.
-                                We are nationalgroup of recruitment companies with average of three million individuals experienced in various industriesall over UK and various even abroad. We use several assortments and innovative approaches to help businesses develop sustainable future.
-                                </p>
+                            <h2>Dentist</h2>
+                            <p>We have jobs available for dentists constantly throughout UK. But only based on your experience, skills, and talents. If you have experiencein:
+
+1. Educating Patients on Oral Healthcare:
+Oral healthcare is one of the key components that need to be emphasised on when meeting patients on regular basis. If patients will be unaware of what they do wrong in the first place; they can never get it right. If you have got experience in managing to let them know how to do what they do; you been the good fit for this role.
+
+2. Examine teeth, diagnosing dental conditions using tools such as x-rays
+As dentist you did evaluate overall health and oral hygiene; evaluate risks of tooth decay, root decay, and gum or bone disease; evaluateneed for tooth restoration or replacement; checked bite and jaw for problems; remove stains or deposits on teeth; demonstrate proper cleaning techniques for teeth or dentures; assess need for fluoride and take dental X-rays orother diagnostic procedures.
+
+3. Assess treatment options and agree treatment plans with patients
+If you have experience in dental treatment options such as filling, crowning, bridging, root canal treatment, scaling, polishing, bracing, wisdom tooth removal, dental implants, denture or false teeth, broken or knocked out tooth, teeth whitening and dental veneers; plus have been getting patients convinced for treatment plans, this is perfect role for you.
+
+4. Execute agreed clinical treatments, restoring teeth influenced by decay and treating gum disease
+There are various sorts of clinical treatments in dentistry. These vary from checking tooth or gum decay, whitening teeth but then goes way beyond to restoring teeth, such as cleaning it hygienically, root canal treatments, etc. List is ongoing. You need to be able to assess and execute agreed such clinical treatments thoroughly on patients with their related issues.
+
+5. Maintain patients' dental records
+To achieve this; you must make and keep contemporaneous, complete and accurate patient records; protect confidentiality and use it for the purpose of which it is given; only release such information in exceptional circumstances; must ensure patients to have access to their records, keep patients information secure at all times, either they are on paper or electronically stored.
+
+6. Recruit, train and manage staff
+As dentist responsibility begins from kickstart. Moment dentist walks through those doors becomes critical part of what they get for dentistry. It portrays a clear picture upcoming in terms of who gets recruited, trained, and managed throughout timeframe whilst working there. Talented, skilled, and experienced ones is subsequently crucial in dentistry as they carry this industry forward literally.
+
+7. Oversee budgets and maintain stocks of equipment
+As everything must be extremely hygienic, it is highly possible in every dentistry for dentists to have experiences in overseeing budgets as well as maintaining the stock levels of equipment regularly and rarely used. Lately PPE has been questioned about hugely. As a dentist your liability is to ensure no one’s health and safety is compromised; whether its staff or patients in any manner whatsoever.
+</p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul>
@@ -60,67 +78,7 @@
                         </div>
                     </div>
     
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                        <div class="accordion_wrapper abt_page_2_wrapper">
-                            <div class="panel-group" id="accordion_threeLeft">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading desktop">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_threeLeft"
-                                                href="#collapseTwentyLeftone" aria-expanded="true">
-                                                Our Values
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwentyLeftone" class="panel-collapse collapse" aria-expanded="true"
-                                        role="tablist">
-                                        <div class="panel-body">
-                                        At Workers Direct, we contribute toterms of basic values–fairness, honesty, integrity, reliability and reverence for people–which underpin all work we do. Workers Direct helps everyone act in line with these values and comply with relevant laws, procedures, rules and regulations.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.panel-default -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading horn">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion_threeLeft"
-                                                href="#collapseTwentyLeftTwo" aria-expanded="false">
-                                                What We Expect
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwentyLeftTwo" class="panel-collapse collapse in" aria-expanded="false"
-                                        role="tablist">
-                                        <div class="panel-body">
-                                        Our Code of Conduct supports every employee, client, contract staff and contractors who work for or on behalf of Workers Direct. It sets out expected behaviours of our employees and how they relate to our Business Principles and Core Values.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.panel-default -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading bell">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion_threeLeft"
-                                                href="#collapseTwentyLeftThree" aria-expanded="false">
-                                                Diversity and Inclusion at Workers Direct
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwentyLeftThree" class="panel-collapse collapse" aria-expanded="false"
-                                        role="tablist">
-                                        <div class="panel-body">
-                                        Building on our core values, we sustain diverse and inclusive culture where everyone feels respected and valued, from our employees to our customers and partners.Diversity, and inclusion is at heart of the way we do business.
-
-We are committed to attracting, developing and retaining diverse and talented workforce. Their richness of perspectives helps us create strong connections wherever we do business.
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.panel-default -->
-                            </div>
-                            <!--end of /.panel-group-->
-                        </div>
-                    </div>
-                    <!--end of /.col-sm-6-->
+                    
                 </div>
             </div>
         </div>
@@ -132,38 +90,23 @@ We are committed to attracting, developing and retaining diverse and talented wo
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <div class="about_text_wrapper">
                         <div class="section_heading section_2_heading">
-                            <h2>Who we <span>are</span></h2>
+                            <h2>Your <span>role</span></h2>
                         </div>
-                        <p> We are Carer Agency experienced innovative trusted Recruitment Specialists in all industries. </p>
-                        <p> Carer Agency is part of Bespoke Placement, specialist in various sectors of recruitment contract; temporary; temporary to permanent and permanent staff for all industries. As developers in recruitment in various term cycles, our skills and experiences allow us to take care of candidates and companies so clients can concentrate on their fundamental work.
+                        
+For this role; you will be likely doing:
+a. Dental Care:
+Such as working in patients' homes, nursing homes, clinics andpractices.You will be treating patients who have special requirements that mean they cannot attend practice. This will include offering them help with likes of how to brush, floss, etc. List is unending but issues keep on changing per patient. You must recognise the issues to be raised and elaborate on them comprehensively.
 
-We believe in society united by shared prospects, where everybody can increase their own capabilities, find implementation and live significant livelihood. Because we operate across UK, being in fantastic position to make real distinction.Our alliance enables us to support survivors as they rebuild their lives, we give individuals still trapped in forced labour confidence to come forward. To date we raised several unemployed staff as permanent employees.
+b. Dental public health:
+Carrying out non-clinical work, assessing dental health needs of populations rather than individuals. In your area you should be able to assess overall, intelligence of dental health in children as well as in public. You must also try to enhance knowledge of public in general for overall great impact by introducing cost effective yet promising campaigns against water fluoridation, and stuff alike.
 
-Workers Direct provides broad array of rational and experienced individuals in all industries. Our services include Administration, Reception, Catering, Concierge,Construction, Dental Nurses, Dentists, Hospitality, Healthcare, IT Services and Industrial, Learning Mentors, Multi-trade, Teachers and Warehouse, etc with extensively well organised unit that manages enormous capacity of ER work ourselves. If you have any queries, speak to representative of our staff.
+c. Hospital dental care:
+Dealing with cases of special difficulty and providing treatment to long-stay hospital patients, emergency treatment for short-stay patients or public for teaching purposes. Improvising in dental care to ensure best results is ideal in this sort of set up. Alongside picking up on old school is very much equally crucial. Hospital dental is where you must have had experience beforehand.
 
-Our commitment to safety
-100%
-Reliability of our People
-100%
-Experience of our Consultants
-100%
-Innovative ways of headhunting
-100%
-Clients that would recommend our service to others
-100%
-</p>
-<p>Workers direct is national organisation with expertise in headhunting, recruitment, training and development of individuals, and enhancingas well asexpanding of market knowledge.
+D. Armed forces:
+Very rarely there will be occasions where you will have to become part of a bigger picture. This includes governmental organisations. Providing comprehensive range of dental services for armed forces personnel in UK and abroad can be one of the tasks you could be given if not given by now, hence you must be willing to become part of team foroperating as military dental officer.
 
-Formed in 2011, although our history can be traced back to almost decade ago; our parent company isBespoke Placement, which is incorporated in England.
-
-Our strategy is to strengthen our position as leading recruitment company by providing unique systems. Safety and social responsibility are essential to our business approach.
-
- </p>
- <p> With a number of successful years providing social and health care staff to our clients, we have an in-depth understanding of the industry and how demanding it is. We know that social care comes with its fair share of stresses, which is why we want to take the recruitment out of your hands. We work to build long lasting relationships with our clients, so they trust in our services, which is why our customers come back to us time and time again.
-                        </p>
-                        <p> We are not interested in just filling your nursing or care worker roles, we also want to ensure you have the right person to take care of your delicate needs. 
-In the same respect, we look after our candidates and will always work together with our nursing assistants and care workers to suit your schedule, as well as that of our clients.
-                        </p>
+If you have at least 3 - 5 years of experience in the same role; please forward your CV for various such jobs as Dentists throughout UK.
 
                         <ul>
                             <li><i class="fa fa-check-square" aria-hidden="true"></i><a href="/"> Complete Recruitment Solutions for Clients.</a>
@@ -175,38 +118,6 @@ In the same respect, we look after our candidates and will always work together 
                         </ul>
                     </div>
                 </div>
-                </div> <br>
-                <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-                    <div class="about_text_wrapper">
-                        <div class="section_heading section_2_heading">
-                            <h2>Our <span>clients</span></h2>
-                        </div>
-                        <p> 
-We concentrate on providing excellent individual service to all our clients, working hard to make certain that clients and candidates do not just comply with each other’s standards, but that they also meet each other’s social, ecological and ambitious constraints.Each recruitment worker has more than 8 years’recruitment experience, hence we make sureclients’ recruitment needs being traded within specialist conduct, and businesses always represented to finest of our proficiency.
-
-Our clientsnecessitateworkers with widespread acquaintance and considerablevolume of business experience. This in returnmeans new applicants need long term approaches that encourage them to construct their own talents, skills and expertise before they apply for job with/for us. Such include gaining experience by obtaining paid/voluntary work assignments in organisations as they assist with their ventures. Our huge advertising extendsto prominent national generalist, community and area based job boards that enables client’s openings to obtain utmost disclosure to job seekers.
-
- </p>
- <p>Due to the nature of the care sector, we understand that you may need to fill jobs at very short notice and we are used to working in this demanding environment.
-                             In fact, we actually thrive on this challenging environment. Our staff work around the clock, so no matter when you need staff, we can help.
-                             In the same respect, we also know that candidates may need work urgently and we will do our best to meet your needs.</p>
-                        <p>The recruitment process can be long and drawn out, with many different aspects to it. If you are a client trying to make the right hire,
-                             it can take up a lot of your time, which you could be using to develop your business in other ways. As a candidate,
-                              looking for a job can also be a time consuming process, often feeling like it is never ending.
-                             We can take the burden off your shoulders and let you get on with other tasks through outsourcing your recruitment needs to us.</p>
-                        <ul>
-                            <li><i class="fa fa-check-square" aria-hidden="true"></i><a href="/"> Complete Recruitment Solutions for Clients.</a>
-                            </li>
-                            <li><i class="fa fa-check-square" aria-hidden="true"></i><a href="/">Advertise Role.</a>
-                            </li>
-                            <li><i class="fa fa-check-square" aria-hidden="true"></i><a href="/">Interviews.</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-                <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <div class="about_image_wrapper">
                         <img class="img-responsive" src='{{ asset("images/content/register_bg.jpg") }}'alt="about-img">
@@ -217,41 +128,14 @@ Our clientsnecessitateworkers with widespread acquaintance and considerablevolum
                         <div class="section_heading section_2_heading">
                             <h2>why we<span> do it ?</span></h2>
                         </div>
-                        <p> Due to the nature of the care sector, we understand that you may need to fill jobs at very short notice and we are used to working in this demanding environment.
+                        <p>Due to the nature of the care sector, we understand that you may need to fill jobs at very short notice and we are used to working in this demanding environment.
                              In fact, we actually thrive on this challenging environment. Our staff work around the clock, so no matter when you need staff, we can help.
                              In the same respect, we also know that candidates may need work urgently and we will do our best to meet your needs.</p>
                         <p>The recruitment process can be long and drawn out, with many different aspects to it. If you are a client trying to make the right hire,
                              it can take up a lot of your time, which you could be using to develop your business in other ways. As a candidate,
                               looking for a job can also be a time consuming process, often feeling like it is never ending.
                              We can take the burden off your shoulders and let you get on with other tasks through outsourcing your recruitment needs to us.</p>
-                        <p> We serve clients with needs for hand-picked, skilled professionals for all industries under one roof itself.We provide to our clients depending on their demand; temporary, contract and permanent recruitment services for Administrative Staff, Cleaners, Decorators, Drivers, Electricians, General Labourers, Handyman, Housekeepers, Maintenance Man, Multi Skilled Builders, Painters, Site Operatives, Supervisors, and many more.
-
-Carer Agency provides contract, temporary and/or temporary to permanent placements in all sectors with remarkable results. We attain this through blend of best people, endless development, ground-breaking determination and principled performances. It allocates our clients to shape, strategise and do their jobs safely and sustainably, certifying that foundation is modernised and effective for all key applicants.
-
-Unlike other employers, at Workers Direct our specialists and their intense business vision safeguards our relationship to UK's job prospects.This tactic means we proficiently fit capable individuals to jobs in all sectors without lag, whilst delivering unique incomparable service throughout UK. Sectors include from construction to healthcare; from administration to management; from Operations Manager to Warehouse Assistant; in short, none that we do not offer.
-
-We offer range of jobs in all sectors across UK. We have over 10 years of experience and are dedicated to lastingaccomplishment of both our clients and applicants. We recogniseapplicantsare very crucial for our achievements.We embrace their involvement and finance their advancement to make sure they make to their ultimate prospective.
-
-Our database has got 50 thousand resumes with people waiting for their next ventures. With around 2 million applicants in various areas waiting to be contacted; there is nothing we cannot achieve.
-
-</p>
                     </div>
-                </div>
-                </div>
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                    <div class="about_text_wrapper abt_2_para">
-                        <div class="section_heading section_2_heading">
-                            <h2>Our office<span> routines</span></h2>
-                        </div>
-                        <p>
-Internally we require professionals to work in different departments performingvarious functions in to gain more expertise about ambience. Employment opportunities are frequently opening in all industries together, many of these attempting to offer services to clientele. In public sector, thesehave been in government agencies and international organisations while in voluntary sector, none.
-
-Our extremely experienced team advertises online with experts having abundance of expertise. They deliver enthusiastic account supervision to clients. We work with firms of all sizes facilitating them to establish customised advertising platforms that delivers outcomes and prevent costs.
-</p>
-
-                    </div>
-                </div>
                 </div>
             </div>
         </div>

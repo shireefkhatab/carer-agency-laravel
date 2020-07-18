@@ -26,107 +26,7 @@
         </div>
     </div>
     <!-- jp Tittle Wrapper End -->
-    <!-- jp popular Categories Wrapper Start -->
-    <div class="jp_popular_category_main_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="jp_popu_cate_heading_wrapper">
-                        <h4>Popular Categories</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-code"></i>
-                                <h3><a href="/">Health care</a></h3>
-                                <p>(240 jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-laptop"></i>
-                                <h3><a href="/">Nurse Practitioner</a></h3>
-                                <p>(504 jobs))</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-bar-chart"></i>
-                                <h3><a href="/">Administrative </a></h3>
-                                <p>(2250 jobs))</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-medkit"></i>
-                                <h3><a href="/">Medical</a></h3>
-                                <p>(202 jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-university"></i>
-                                <h3><a href="/">Occupational Therapist</a></h3>
-                                <p>(1457 jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-newspaper-o"></i>
-                                <h3><a href="/">Physical Therapist</a></h3>
-                                <p>(2142 jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-cutlery"></i>
-                                <h3><a href="/">Home Health Aide</a></h3>
-                                <p>(2342 jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
-                        <div class="jp_top_jobs_category_wrapper">
-                            <div class="jp_top_jobs_category">
-                                <i class="fa fa-th-large"></i>
-                                <h3><a href="/">All Jobs</a></h3>
-                                <p>(2000+ jobs)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- jp popular Categories Wrapper End -->
+
     <!-- jp recent jobs Wrapper Start -->
     <div class="jp_recent_job_main_wrapper">
         <div class="container">
@@ -4030,6 +3930,107 @@
         </div>
     </div>
     <!-- jp recent jobs Wrapper End -->
+        <!-- jp popular Categories Wrapper Start -->
+        <div class="jp_popular_category_main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="jp_popu_cate_heading_wrapper">
+                        <h4>Popular Categories</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-code"></i>
+                                <h3><a href="/">Health care</a></h3>
+                                <p>(240 jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-laptop"></i>
+                                <h3><a href="/">Nurse Practitioner</a></h3>
+                                <p>(504 jobs))</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-bar-chart"></i>
+                                <h3><a href="/">Administrative </a></h3>
+                                <p>(2250 jobs))</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper_second">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-medkit"></i>
+                                <h3><a href="/">Medical</a></h3>
+                                <p>(202 jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-university"></i>
+                                <h3><a href="/">Occupational Therapist</a></h3>
+                                <p>(1457 jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-newspaper-o"></i>
+                                <h3><a href="/">Physical Therapist</a></h3>
+                                <p>(2142 jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-cutlery"></i>
+                                <h3><a href="/">Home Health Aide</a></h3>
+                                <p>(2342 jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="jp_popu_cate_box_main_wrapper jp_popu_cate_box_main_wrapper2">
+                        <div class="jp_top_jobs_category_wrapper">
+                            <div class="jp_top_jobs_category">
+                                <i class="fa fa-th-large"></i>
+                                <h3><a href="/">All Jobs</a></h3>
+                                <p>(2000+ jobs)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jp popular Categories Wrapper End -->
         <!-- jp our services Wrapper Start -->
     <div class="jp_best_deal_main_wrapper">
         <div class="container">
